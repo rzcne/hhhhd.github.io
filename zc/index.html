@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bingbook.cn - 域名政策</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(120deg, #1e5799 0%, #207cca 51%, #2989d8 100%);
+            color: white;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .policy-section {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 5px solid #2989d8;
+        }
+        
+        .policy-section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .section-title {
+            color: #1e5799;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .section-title i {
+            background: #e4edf5;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: #1e5799;
+        }
+        
+        .policy-content {
+            padding-left: 15px;
+            border-left: 3px solid #e4edf5;
+            margin-left: 25px;
+        }
+        
+        .policy-content p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        .highlight {
+            background: #e8f4ff;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #2989d8;
+        }
+        
+        .standards-list {
+            list-style-type: none;
+            margin: 20px 0;
+        }
+        
+        .standards-list li {
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            background: #f8fafd;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid #e1e8f0;
+        }
+        
+        .standards-list li i {
+            color: #2989d8;
+            font-size: 1.2rem;
+        }
+        
+        .prohibited-list {
+            list-style-type: none;
+            margin: 20px 0;
+        }
+        
+        .prohibited-list li {
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            background: #fff5f5;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid #ffe0e0;
+        }
+        
+        .prohibited-list li i {
+            color: #e74c3c;
+            font-size: 1.2rem;
+        }
+        
+        .scope-note {
+            text-align: center;
+            background: #1e5799;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 30px 0;
+            font-weight: 500;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+            color: #666;
+            border-top: 1px solid #ddd;
+            font-size: 0.95rem;
+        }
+        
+        .note-box {
+            background: #fff8e6;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 25px 0;
+            border-left: 4px solid #f1c40f;
+        }
+        
+        .note-title {
+            font-weight: 700;
+            color: #d35400;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .trademark-info {
+            background: #e8f5e9;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 25px 0;
+            border-left: 4px solid #2ecc71;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+            
+            .policy-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>bingbook.cn 域名政策</h1>
+            <p class="subtitle">以下政策递归适用于 bingbook.cn 的所有子域</p>
+        </header>
+        
+        <div class="scope-note">
+            <i class="fas fa-info-circle"></i> 此政策适用于 bingbook.cn 及其所有子域名
+        </div>
+        
+        <div class="policy-section">
+            <h2 class="section-title">
+                <i class="fas fa-building"></i>
+                商业场所政策
+            </h2>
+            <div class="policy-content">
+                <p>虽然该服务主要面向非盈利组织及个人，但也接受小型商业网站，但我们强烈建议商业用户仅在万不得已的情况下才使用本服务。</p>
+                
+                <div class="highlight">
+                    <p><strong>重要建议：</strong>商业用户应考虑从 InterNIC 等 ICANN 认可的注册商处预留域名，除非他们明确支持 bingbook.cn 的目标和使命。</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="policy-section">
+            <h2 class="section-title">
+                <i class="fas fa-globe-asia"></i>
+                非亚洲站点政策
+            </h2>
+            <div class="policy-content">
+                <p>由于亚洲并不是唯一一个国家 NIC 政策存在问题的地方，因此非亚洲站点也受到欢迎。</p>
+                
+                <div class="note-box">
+                    <div class="note-title">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        政策说明
+                    </div>
+                    <p>我们的服务致力于为全球用户提供域名解决方案，无论其地理位置如何。我们特别关注那些在传统域名注册系统中可能面临挑战的地区。</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="policy-section">
+            <h2 class="section-title">
+                <i class="fas fa-user-shield"></i>
+                行政授权要求
+            </h2>
+            <div class="policy-content">
+                <p>子域名的所有者必须从托管其名称服务器或域中机器的站点获取必要的管理授权。</p>
+                <p>这确保了域名管理的合法性和责任归属，并防止未经授权的域名使用。</p>
+            </div>
+        </div>
+        
+        <div class="policy-section">
+            <h2 class="section-title">
+                <i class="fas fa-check-circle"></i>
+                互联网标准合规
+            </h2>
+            <div class="policy-content">
+                <p>子域名所有者必须严格遵守互联网标准 (RFC)。这包括但不限于以下方面：</p>
+                
+                <ul class="standards-list">
+                    <li><i class="fas fa-server"></i> 子域名管理</li>
+                    <li><i class="fas fa-envelope"></i> 电子邮件系统与协议</li>
+                    <li><i class="fas fa-network-wired"></i> 名称服务器软件与配置</li>
+                </ul>
+                
+                <p><strong>严格禁止以下行为：</strong></p>
+                
+                <ul class="prohibited-list">
+                    <li><i class="fas fa-ban"></i> 发送垃圾邮件（包括大量未经请求的电子邮件或新闻帖子，以及用于 SEO 的链接垃圾邮件）</li>
+                    <li><i class="fas fa-ban"></i> 网络钓鱼（创建虚假网站以窃取用户身份验证数据）</li>
+                    <li><i class="fas fa-ban"></i> 提供任何帮助发送垃圾邮件或网络钓鱼的工具</li>
+                    <li><i class="fas fa-ban"></i> 传播恶意软件、病毒或其他有害程序</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="policy-section">
+            <h2 class="section-title">
+                <i class="fas fa-trademark"></i>
+                商标政策
+            </h2>
+            <div class="policy-content">
+                <div class="trademark-info">
+                    <p>InterNIC 关于商标的规定适用于本服务：</p>
+                    <p>注册域名并不自动赋予该名称任何法律权利或商标权。</p>
+                </div>
+                
+                <p>任何对使用特定名称的权利的争议应由争议双方通过 ICANN 的 <strong>UDRP（统一域名争议解决政策）</strong>来解决。</p>
+                
+                <div class="highlight">
+                    <p><i class="fas fa-balance-scale"></i> <strong>争议解决说明：</strong> 我们要求所有用户尊重他人知识产权。商标争议应通过 ICANN 建立的正式程序解决，而不是通过本平台。</p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2025 bingbook.cn 域名服务 | 最后更新: 2023年10月15日</p>
+            <p>本政策如有变更，恕不另行通知。用户有责任定期查看最新政策。</p>
+        </footer>
+    </div>
+</body>
+</html>
